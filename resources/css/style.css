@@ -1,7 +1,5 @@
-h1,
-h2,
-p,
-a {
+/*body {
+  background-color: #000;
   font-family: "Verdana", sans-serif;
   text-align: center;
 }
@@ -34,11 +32,36 @@ a {
   color: gray;
 }
 
-body {
-  background-color: #000;
-  text-align: center;
-}
-
 video::-webkit-media-controls {
   display:none !important;
+} */
+
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  color: white;
+}
+
+.cta {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+.footer {
+  text-align: right;
 }
